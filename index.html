@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="container">
+        <h1 id="heading">HELLO SIR</h1>
+
+        <p id="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        Ipsam alias, nulla assumenda voluptatem consequuntur dicta.</p>
+        
+        <button onclick="bgColors()">CHANGE BG COLOUR</button>
+        <button onclick="textColors()">CHANGE TEXT COLOUR</button>
+    </div>
+
+     <hr>
+     <br><br>
+
+
+    <img id="image" width="400" height="400" src="pic.jpg" alt="">
+
+    <button class="btn" onclick="imgHandle('show')">show img</button>
+    <button class="btn" onclick="imgHandle('large')">large img</button>
+    <button class="btn" onclick="imgHandle('small')">small img</button>
+    <button class="btn" onclick="imgHandle('hide')">hide img</button>
+<hr>
+<br><br>
+
+
+<div style="margin:  0 auto;  width : 50%; text-align: center; ">
+
+    <img src="lighton.jpg" onmouseout="imgChange('off', this)" onmouseover="imgChange('on' , this)" alt="">    
+
+</div> 
+
+<hr>
+<br><br>
+
+
+<div id="seccontainer">
+
+    <p id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita numquam accusantium, nam minus ex id.</p>
+    <p id="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis magni ad et nemo quam itaque?</p>
+    <p id="para3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sint, quae iure quo eum placeat?</p>
+    <p id="para4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, beatae? Temporibus accusantium inventore debitis tempora!</p>
+
+    <button onclick="changePara()">Change paragraph color</button>
+    <hr>
+</div>
+
+<br><br>
+
+<div id="thirdcontainer">
+
+    <p id="para5">Lorem ipsum dolor Lorem ipsum dolor sit amet. sit amet consectetur adipisicing elit. Praesentium, sed.</p>
+    <p >Lorem Lorem ipsum dolor sit amet. ipsum dolor sit amet consectetur adipisicing elit. Praesentium, sed.</p>
+    <p >Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet. consectetur adipisicing elit. Praesentium, sed.</p>
+    <p id="para8">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet. adipisicing elit. Praesentium, sed.</p>
+
+    <button onclick="changePara1()">Change paragraph color 1&4</button>
+
+
+</div>
+
+
+
+    
+</body>
+
+<script src="app.js"></script>
+</html>
